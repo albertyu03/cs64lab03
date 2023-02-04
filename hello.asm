@@ -6,9 +6,14 @@
 	# TODO: Write your string definitions here
 	string1: .asciiz "Hello World 2023!\n"
 	string2: .asciiz "The magic number is -42!!!\n"
+	string3: .asciiz "Enter an integer:\n"
 #Text Area (i.e. instructions)
 .text
 main:
+	#print string + input
+	li $v0, 4
+	la $a0, string3
+	syscall
 	li $v0, 5
 	syscall
 	#printing strings
