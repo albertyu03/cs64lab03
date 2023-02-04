@@ -5,7 +5,7 @@
 .data
 	# TODO: Write your string definitions here
 	string1: .asciiz "Hello World 2023!\n"
-	string2: .asciiz "The magic number is -42!!!\n"
+	string2: .asciiz "The magic number is 464!!!\n"
 	string3: .asciiz "Enter an integer:\n"
 #Text Area (i.e. instructions)
 .text
